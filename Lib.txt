@@ -1,0 +1,31 @@
+"master" "develop" "feature"
+
+
+git add .
+git commit -m "..."
+git push origin LimE
+
+
+git checkout -b LimE 	//tạo branch
+git checkout LimE 	//chuyển branch
+git branch -D LimE	//xóa branch local
+git push --delete LimE
+
+
+git pull origin LimE
+git diff		// xem những thay đổi
+
+
+git innit
+git add .
+git commit -m "..."
+git remote add /link res/
+git push origin LimE
+
+
+git checkout master 
+git merge LimE
+
+git commit --amend
+## Thay đổi message theo ý muốn (nhấn insert để bắt đầu nhập thay đổi)
+## Lưu lại và thoát (Nhấn Esc + nhập :wq ↲)
